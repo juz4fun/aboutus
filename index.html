@@ -1,79 +1,132 @@
 <!DOCTYPE html>
-<html>
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><!--<![endif]-->
+<head>
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Aboutus.juz4fun.com : ">
+	<meta charset="utf-8">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+	<title>About Us</title>
 
-    <title>Aboutus.juz4fun.com</title>
-  </head>
+	<!-- Behavioral Meta Data -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-  <body>
+	<!-- Core Meta Data -->
+	<meta name="author" content="George Sruthin">
+	<meta name="description" content="A place for learn new technology & answers for fixing issues.">
+	<meta name="keywords" content="html5,css3,jquery,design,development,front-end">
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/juz4fun/aboutus.juz4fun.com">View on GitHub</a>
+	<!-- Open Graph Meta Data -->
+	<meta property="og:description" content=".">
+	<meta property="og:image" content="http://www.juz4fun.com/images/thumbnail.jpg">
+	<meta property="og:site_name" content="GEORGE SRUTHIN">
+	<meta property="og:title" content="GEORGE SRUTHIN">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://juz4fun.com/index.html">
 
-          <h1 id="project_title">Aboutus.juz4fun.com</h1>
-          <h2 id="project_tagline"></h2>
+	<!-- Twitter Card Meta Data -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@juz4fun_">
+	<meta name="twitter:creator" content="@juz4fun_">
+	<meta name="twitter:title" content="GEORGE SRUTHIN">
+	<meta name="twitter:description" content="A place for learn new technology & answers for fixing issues.">
+	<meta name="twitter:image" content="http://juz4fun.com/images/thumbnail.png">
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/juz4fun/aboutus.juz4fun.com/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/juz4fun/aboutus.juz4fun.com/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.png" type="image/png">
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+	<!-- Apple Touch Icons -->
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57-precomposed.png">
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:700|Cardo' rel='stylesheet' type='text/css'>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="css/loader.css"/>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="css/ie.css" />
+	<![endif]-->
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+	<!-- Javascript -->
+	<script src="js/jquery.js"></script>
+</head>
+<body>
+	<div class="preloader">
+		<div class="loading">
+			<h2>Loading...</h2>
+			<span class="progress"></span>
+		</div>
+		<script type="text/javascript">
+			$(window).load(function(){
+			     $('.preloader').fadeOut('slow');
+			});
+		</script>
+	</div>
+	<div class="wrapper">
+		<ul id="scene" class="scene unselectable"
+			data-friction-x="0.1"
+			data-friction-y="0.1"
+			data-scalar-x="25"
+			data-scalar-y="15">
+			<li class="layer" data-depth="0.00"></li>
+			<!-- BG -->
+			<li class="layer" data-depth="0.10"><div class="background"></div></li>
+			<li class="layer" data-depth="0.15"><div class="triangles"></div></li>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+			<!-- Hero -->
+			<li class="layer" data-depth="0.20"><div class="title"><h2>GEORGE SRUTHIN</h2><span class="line"></span></div></li>
+			<li class="layer" data-depth="0.25"><div class="sphere"><img src="images/sphere.png" alt="sphere"></div></li>
+			<li class="layer" data-depth="0.30"><div class="hero"><h1>Juz4fun.com</h1><p class="sub-title">A place for learn new technology & answers for fixing issues.</p></div></li>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+			<!-- Flakes -->
+			<li class="layer" data-depth="0.40">
+				<div class="depth-1 flake1"><img src="images/flakes/depth1/flakes1.png" alt="flake"></div>
+				<div class="depth-1 flake2"><img src="images/flakes/depth1/flakes2.png" alt="flake"></div>
+				<div class="depth-1 flake3"><img src="images/flakes/depth1/flakes3.png" alt="flake"></div>
+				<div class="depth-1 flake4"><img src="images/flakes/depth1/flakes4.png" alt="flake"></div>
+			</li>
+			<li class="layer" data-depth="0.50">
+				<div class="depth-2 flake1"><img src="images/flakes/depth2/flakes1.png" alt="flake"></div>
+				<div class="depth-2 flake2"><img src="images/flakes/depth2/flakes2.png" alt="flake"></div>
+			</li>
+			<li class="layer" data-depth="0.60">
+				<div class="depth-3 flake1"><img src="images/flakes/depth3/flakes1.png" alt="flake"></div>
+				<div class="depth-3 flake2"><img src="images/flakes/depth3/flakes2.png" alt="flake"></div>
+				<div class="depth-3 flake3"><img src="images/flakes/depth3/flakes3.png" alt="flake"></div>
+				<div class="depth-3 flake4"><img src="images/flakes/depth3/flakes4.png" alt="flake"></div>
+			</li>
+			<li class="layer" data-depth="0.80"><div class="depth-4"><img src="images/flakes/depth4/flakes.png" alt="flake"></div></li>
+			<li class="layer" data-depth="1.00"><div class="depth-5"><img src="images/flakes/depth5/flakes.png" alt="flake"></div></li>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+			<!-- Contact -->
+			<li class="layer" data-depth="0.20">
+				<div class="contact">
+					<ul class="icons">
+						<li><a class="blogger" <a href="https://www.juz4fun.com" target="_blank"></a></li>
+						<li><a class="facebook" <a href="https://facebook.com/juz4fun.co.in" target="_blank"></a></li>
+						<li><a class="github" <a href="https://github.com/impiza" target="_blank"></a></li>
+						<li><a class="twitter" <a href="https://twitter.com/juz4fun_" target="_blank"></a></li>
+						<li><a class="linkedin" <a href="https://www.linkedin.com/in/impiza" target="_blank"></a></li>
+						<li><a class="youtube" <a href="https://www.youtube.com/user/gsruthin" target="_blank"></a></li>
+					</ul>
+					<a class="mail" href="mailto:gsruthin@gmail.com?subject=Hi Juz4fun!">gsruthin@gmail.com</a>
+				</div>
+			</li>
+		</ul>
+	</div>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Aboutus.juz4fun.com maintained by <a href="https://github.com/juz4fun">juz4fun</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+	<!-- Javascript -->
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+</body>
 </html>
