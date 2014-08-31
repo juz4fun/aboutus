@@ -247,6 +247,11 @@ h2 {
 	background-size: 25px 25px;
 }
 
+.contact .icons .skype {
+	background: url(../images/skype.png) no-repeat center;
+	background-size: 25px 25px;
+}
+
 .contact .icons .youtube {
 	background: url(../images/youtube.png) no-repeat center;
 	background-size: 25px 25px;
